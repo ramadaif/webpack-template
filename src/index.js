@@ -8,3 +8,7 @@ const heading = document.createElement("h1");
 heading.textContent = "Hello Webpack!";
 
 content.appendChild(heading);
+
+const hello = (name) => {
+  console.log("Hello " + name);
+};
